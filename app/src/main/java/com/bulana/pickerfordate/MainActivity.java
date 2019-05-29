@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         String day_string = Integer.toString(day);
         String year_string = Integer.toString(year);
         String dateMessage = (month_string + "/" + day_string + "/" + year_string);
+
         Toast.makeText(this, "Date: " + dateMessage, Toast.LENGTH_SHORT).show();
     }
 }
